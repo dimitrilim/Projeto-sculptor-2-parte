@@ -1,11 +1,11 @@
 var menudata={children:[
-{text:"Página principal",url:"index.html"},
+{text:"Página Principal",url:"index.html"},
 {text:"Classes",url:"annotated.html",children:[
-{text:"Lista de componentes",url:"annotated.html"},
-{text:"Índice dos componentes",url:"classes.html"},
-{text:"Hierarquia de classes",url:"inherits.html"},
-{text:"Componentes membro",url:"functions.html",children:[
-{text:"Tudo",url:"functions.html",children:[
+{text:"Lista de Componentes",url:"annotated.html"},
+{text:"Índice dos Componentes",url:"classes.html"},
+{text:"Hierarquia de Classes",url:"inherits.html"},
+{text:"Componentes Membros",url:"functions.html",children:[
+{text:"Todos",url:"functions.html",children:[
 {text:"a",url:"functions.html#index_a"},
 {text:"b",url:"functions.html#index_b"},
 {text:"c",url:"functions.html#index_c"},
@@ -33,5 +33,5 @@ var menudata={children:[
 {text:"w",url:"functions_func.html#index_w"},
 {text:"~",url:"functions_func.html#index_0x7e"}]},
 {text:"Variáveis",url:"functions_vars.html"}]}]},
-{text:"Ficheiros",url:"files.html",children:[
-{text:"Lista de ficheiros",url:"files.html"}]}]}
+{text:"Arquivos",url:"files.html",children:[
+{text:"Lista de Arquivos",url:"files.html"}]}]}
