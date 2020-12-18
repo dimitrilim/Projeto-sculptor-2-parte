@@ -1,0 +1,92 @@
+\hypertarget{classcut_voxel}{}\section{Referência à classe cut\+Voxel}
+\label{classcut_voxel}\index{cut\+Voxel@{cut\+Voxel}}
+
+
+Classe responsavel por cortar um voxel na posição (x,y,z) e deixando inativo (is\+On = false)  
+
+
+
+
+{\ttfamily \#include $<$cut\+Voxel.\+h$>$}
+
+
+
+Diagrama de heranças da classe cut\+Voxel
+% FIG 0
+
+
+Diagrama de colaboração para cut\+Voxel\+:
+% FIG 1
+\subsection*{Membros públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcut_voxel_a43e26aed4629e0a53d76fc89a849febd}{cut\+Voxel} (int x, int y, int z)
+\begin{DoxyCompactList}\small\item\em Define o voxel a ser excluido. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcut_voxel_aa70df4b1dbf05f9b90ac24fd9323403b}\label{classcut_voxel_aa70df4b1dbf05f9b90ac24fd9323403b}} 
+virtual \hyperlink{classcut_voxel_aa70df4b1dbf05f9b90ac24fd9323403b}{$\sim$cut\+Voxel} ()
+\begin{DoxyCompactList}\small\item\em Destrutor da classe. \end{DoxyCompactList}\item 
+void \hyperlink{classcut_voxel_aaabe3257d363e6f8abff1dc5f2632550}{draw} (\hyperlink{class_sculptor}{Sculptor} \&t)
+\begin{DoxyCompactList}\small\item\em É o método que desenha a escultura. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Outros membros herdados}
+
+
+\subsection{Descrição detalhada}
+Classe responsavel por cortar um voxel na posição (x,y,z) e deixando inativo (is\+On = false) 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em x} & (Posição em x) \\
+\hline
+{\em y} & (Posição em y) \\
+\hline
+{\em z} & (Posição em z) \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentação dos Construtores \& Destrutor}
+\mbox{\Hypertarget{classcut_voxel_a43e26aed4629e0a53d76fc89a849febd}\label{classcut_voxel_a43e26aed4629e0a53d76fc89a849febd}} 
+\index{cut\+Voxel@{cut\+Voxel}!cut\+Voxel@{cut\+Voxel}}
+\index{cut\+Voxel@{cut\+Voxel}!cut\+Voxel@{cut\+Voxel}}
+\subsubsection{\texorpdfstring{cut\+Voxel()}{cutVoxel()}}
+{\footnotesize\ttfamily cut\+Voxel\+::cut\+Voxel (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{z }\end{DoxyParamCaption})}
+
+
+
+Define o voxel a ser excluido. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em x,y,z} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentação dos métodos}
+\mbox{\Hypertarget{classcut_voxel_aaabe3257d363e6f8abff1dc5f2632550}\label{classcut_voxel_aaabe3257d363e6f8abff1dc5f2632550}} 
+\index{cut\+Voxel@{cut\+Voxel}!draw@{draw}}
+\index{draw@{draw}!cut\+Voxel@{cut\+Voxel}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void cut\+Voxel\+::draw (\begin{DoxyParamCaption}\item[{\hyperlink{class_sculptor}{Sculptor} \&}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+É o método que desenha a escultura. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em t} & (Onde a escultura será alocada) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+void 
+\end{DoxyReturn}
+
+
+Implementa \hyperlink{class_figura_geometrica_a34585fd7c0bd7378fc69c4ee208e676c}{Figura\+Geometrica}.
+
+
+
+A documentação para esta classe foi gerada a partir do seguinte ficheiro\+:\begin{DoxyCompactItemize}
+\item 
+include/cut\+Voxel.\+h\end{DoxyCompactItemize}

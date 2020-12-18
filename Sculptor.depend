@@ -1,0 +1,109 @@
+# depslib dependency file v1.0
+1608249953 source:/home/dimitri/Documentos/Codigos/C++/Projetos/Sculptor/main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	"Sculptor.h"
+	"Interpretador.h"
+	"Figurageometrica.h"
+
+1608190199 /home/dimitri/Documentos/Codigos/C++/Projetos/Sculptor/include/Figurageometrica.h
+	"Sculptor.h"
+
+1608192845 /home/dimitri/Documentos/Codigos/C++/Projetos/Sculptor/include/Sculptor.h
+
+1608248192 /home/dimitri/Documentos/Codigos/C++/Projetos/Sculptor/include/Interpretador.h
+	"Figurageometrica.h"
+	<string>
+	<vector>
+
+1608190190 source:/home/dimitri/Documentos/Codigos/C++/Projetos/Sculptor/src/cutBox.cpp
+	"cutBox.h"
+
+1608248507 /home/dimitri/Documentos/Codigos/C++/Projetos/Sculptor/include/cutBox.h
+	"Figurageometrica.h"
+	"Sculptor.h"
+
+1608190526 source:/home/dimitri/Documentos/Codigos/C++/Projetos/Sculptor/src/cutEllipsoid.cpp
+	"cutEllipsoid.h"
+	<cstdlib>
+	<cmath>
+
+1608248507 /home/dimitri/Documentos/Codigos/C++/Projetos/Sculptor/include/cutEllipsoid.h
+	"Figurageometrica.h"
+	"Sculptor.h"
+
+1608249939 source:/home/dimitri/Documentos/Codigos/C++/Projetos/Sculptor/src/cutSphere.cpp
+	"cutSphere.h"
+	<cmath>
+
+1608248507 /home/dimitri/Documentos/Codigos/C++/Projetos/Sculptor/include/cutSphere.h
+	"Figurageometrica.h"
+	"Sculptor.h"
+
+1608190226 source:/home/dimitri/Documentos/Codigos/C++/Projetos/Sculptor/src/cutVoxel.cpp
+	"cutVoxel.h"
+
+1608248507 /home/dimitri/Documentos/Codigos/C++/Projetos/Sculptor/include/cutVoxel.h
+	"Figurageometrica.h"
+	"Sculptor.h"
+
+1608188718 source:/home/dimitri/Documentos/Codigos/C++/Projetos/Sculptor/src/Figurageometrica.cpp
+	"Figurageometrica.h"
+
+1608249390 source:/home/dimitri/Documentos/Codigos/C++/Projetos/Sculptor/src/Interpretador.cpp
+	"Interpretador.h"
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+	<cstdlib>
+	<vector>
+	"putVoxel.h"
+	"cutVoxel.h"
+	"putBox.h"
+	"cutBox.h"
+	"putSphere.h"
+	"cutSphere.h"
+	"putEllipsoid.h"
+	"cutEllipsoid.h"
+
+1608248779 /home/dimitri/Documentos/Codigos/C++/Projetos/Sculptor/include/putVoxel.h
+	"Figurageometrica.h"
+	"Sculptor.h"
+
+1608248507 /home/dimitri/Documentos/Codigos/C++/Projetos/Sculptor/include/putBox.h
+	"Figurageometrica.h"
+	"Sculptor.h"
+
+1608248779 /home/dimitri/Documentos/Codigos/C++/Projetos/Sculptor/include/putSphere.h
+	"Figurageometrica.h"
+	"Sculptor.h"
+
+1608248779 /home/dimitri/Documentos/Codigos/C++/Projetos/Sculptor/include/putEllipsoid.h
+	"Figurageometrica.h"
+	"Sculptor.h"
+
+1608190526 source:/home/dimitri/Documentos/Codigos/C++/Projetos/Sculptor/src/putBox.cpp
+	"putBox.h"
+	<cstdlib>
+
+1608190526 source:/home/dimitri/Documentos/Codigos/C++/Projetos/Sculptor/src/putEllipsoid.cpp
+	"putEllipsoid.h"
+	<cstdlib>
+	<cmath>
+
+1608190527 source:/home/dimitri/Documentos/Codigos/C++/Projetos/Sculptor/src/putSphere.cpp
+	"putSphere.h"
+	<cmath>
+	<cstdlib>
+
+1608190527 source:/home/dimitri/Documentos/Codigos/C++/Projetos/Sculptor/src/putVoxel.cpp
+	"putVoxel.h"
+
+1608194562 source:/home/dimitri/Documentos/Codigos/C++/Projetos/Sculptor/src/Sculptor.cpp
+	"Sculptor.h"
+	<iostream>
+	<cstdlib>
+	<fstream>
+

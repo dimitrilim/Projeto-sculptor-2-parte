@@ -1,0 +1,101 @@
+\hypertarget{classput_box}{}\section{Referência à classe put\+Box}
+\label{classput_box}\index{put\+Box@{put\+Box}}
+
+
+Classe responsavel por colocar uma sequencia de voxels em forma de caixa e deixando ativo (is\+On = true)  
+
+
+
+
+{\ttfamily \#include $<$put\+Box.\+h$>$}
+
+
+
+Diagrama de heranças da classe put\+Box
+% FIG 0
+
+
+Diagrama de colaboração para put\+Box\+:
+% FIG 1
+\subsection*{Membros públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classput_box_a8bff4dd8586da4db658771e19e14f08e}{put\+Box} (int x0, int y0, int z0, int x1, int y1, int z1, float r, float g, float b, float a)
+\begin{DoxyCompactList}\small\item\em Define a região retangular a ser inserida na escultura e atribui a cor e transparncia especificada. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classput_box_a2be61d9d564b088341c890149e6f7aab}\label{classput_box_a2be61d9d564b088341c890149e6f7aab}} 
+virtual \hyperlink{classput_box_a2be61d9d564b088341c890149e6f7aab}{$\sim$put\+Box} ()
+\begin{DoxyCompactList}\small\item\em Destrutor da classe. \end{DoxyCompactList}\item 
+void \hyperlink{classput_box_afd85072811169fc9f25435de046a101e}{draw} (\hyperlink{class_sculptor}{Sculptor} \&t)
+\begin{DoxyCompactList}\small\item\em É o método que desenha a escultura. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Outros membros herdados}
+
+
+\subsection{Descrição detalhada}
+Classe responsavel por colocar uma sequencia de voxels em forma de caixa e deixando ativo (is\+On = true) 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em x0} & (Dimensão inicial em x) \\
+\hline
+{\em y0} & (Dimensão inicial em y) \\
+\hline
+{\em z0} & (Dimensão inicial em z) \\
+\hline
+{\em x1} & (Dimensão final em x) \\
+\hline
+{\em y1} & (Dimensão final em y) \\
+\hline
+{\em z1} & (Dimensão final em z) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+
+\end{DoxyReturn}
+
+
+\subsection{Documentação dos Construtores \& Destrutor}
+\mbox{\Hypertarget{classput_box_a8bff4dd8586da4db658771e19e14f08e}\label{classput_box_a8bff4dd8586da4db658771e19e14f08e}} 
+\index{put\+Box@{put\+Box}!put\+Box@{put\+Box}}
+\index{put\+Box@{put\+Box}!put\+Box@{put\+Box}}
+\subsubsection{\texorpdfstring{put\+Box()}{putBox()}}
+{\footnotesize\ttfamily put\+Box\+::put\+Box (\begin{DoxyParamCaption}\item[{int}]{x0,  }\item[{int}]{y0,  }\item[{int}]{z0,  }\item[{int}]{x1,  }\item[{int}]{y1,  }\item[{int}]{z1,  }\item[{float}]{r,  }\item[{float}]{g,  }\item[{float}]{b,  }\item[{float}]{a }\end{DoxyParamCaption})}
+
+
+
+Define a região retangular a ser inserida na escultura e atribui a cor e transparncia especificada. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em x0,y0,z0,x1,y1,z1,r,g,b,a} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentação dos métodos}
+\mbox{\Hypertarget{classput_box_afd85072811169fc9f25435de046a101e}\label{classput_box_afd85072811169fc9f25435de046a101e}} 
+\index{put\+Box@{put\+Box}!draw@{draw}}
+\index{draw@{draw}!put\+Box@{put\+Box}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void put\+Box\+::draw (\begin{DoxyParamCaption}\item[{\hyperlink{class_sculptor}{Sculptor} \&}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+É o método que desenha a escultura. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em t} & (Onde a escultura será alocada) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+void 
+\end{DoxyReturn}
+
+
+Implementa \hyperlink{class_figura_geometrica_a34585fd7c0bd7378fc69c4ee208e676c}{Figura\+Geometrica}.
+
+
+
+A documentação para esta classe foi gerada a partir do seguinte ficheiro\+:\begin{DoxyCompactItemize}
+\item 
+include/put\+Box.\+h\end{DoxyCompactItemize}

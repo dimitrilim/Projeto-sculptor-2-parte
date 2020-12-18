@@ -1,0 +1,107 @@
+\hypertarget{classcut_box}{}\section{Referência à classe cut\+Box}
+\label{classcut_box}\index{cut\+Box@{cut\+Box}}
+
+
+Classe responsavel por cortar uma sequencia de voxels em forma de cubo e deixando inativo (is\+On = false)  
+
+
+
+
+{\ttfamily \#include $<$cut\+Box.\+h$>$}
+
+
+
+Diagrama de heranças da classe cut\+Box
+% FIG 0
+
+
+Diagrama de colaboração para cut\+Box\+:
+% FIG 1
+\subsection*{Membros públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcut_box_afe4d8dd6985af209d59ccc98125df470}{cut\+Box} (int x0, int y0, int z0, int x1, int y1, int z1)
+\begin{DoxyCompactList}\small\item\em Função que determina as dimensões em formato retangular para ser removida da escultura. \end{DoxyCompactList}\item 
+virtual \hyperlink{classcut_box_ae5f3412f5da209c2d892ae5fc623fed7}{$\sim$cut\+Box} ()
+\begin{DoxyCompactList}\small\item\em Destrutor da classe. \end{DoxyCompactList}\item 
+void \hyperlink{classcut_box_ab71dd9780aace3726f8c2225938c47c2}{draw} (\hyperlink{class_sculptor}{Sculptor} \&t)
+\begin{DoxyCompactList}\small\item\em É o método que desenha a escultura. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Outros membros herdados}
+
+
+\subsection{Descrição detalhada}
+Classe responsavel por cortar uma sequencia de voxels em forma de cubo e deixando inativo (is\+On = false) 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em x0} & (Dimensão inicial do corte em x) \\
+\hline
+{\em x1} & (Dimensão final do corte em x) \\
+\hline
+{\em y0} & (Dimensão inicial do corte em y) \\
+\hline
+{\em y1} & (Dimensão final do corte em y) \\
+\hline
+{\em z0} & (Dimensão inicial do corte em z) \\
+\hline
+{\em z1} & (Dimensão final do corte em z) \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentação dos Construtores \& Destrutor}
+\mbox{\Hypertarget{classcut_box_afe4d8dd6985af209d59ccc98125df470}\label{classcut_box_afe4d8dd6985af209d59ccc98125df470}} 
+\index{cut\+Box@{cut\+Box}!cut\+Box@{cut\+Box}}
+\index{cut\+Box@{cut\+Box}!cut\+Box@{cut\+Box}}
+\subsubsection{\texorpdfstring{cut\+Box()}{cutBox()}}
+{\footnotesize\ttfamily cut\+Box\+::cut\+Box (\begin{DoxyParamCaption}\item[{int}]{x0,  }\item[{int}]{y0,  }\item[{int}]{z0,  }\item[{int}]{x1,  }\item[{int}]{y1,  }\item[{int}]{z1 }\end{DoxyParamCaption})}
+
+
+
+Função que determina as dimensões em formato retangular para ser removida da escultura. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em x0,y0,z0,x1,y1,z1} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcut_box_ae5f3412f5da209c2d892ae5fc623fed7}\label{classcut_box_ae5f3412f5da209c2d892ae5fc623fed7}} 
+\index{cut\+Box@{cut\+Box}!````~cut\+Box@{$\sim$cut\+Box}}
+\index{````~cut\+Box@{$\sim$cut\+Box}!cut\+Box@{cut\+Box}}
+\subsubsection{\texorpdfstring{$\sim$cut\+Box()}{~cutBox()}}
+{\footnotesize\ttfamily virtual cut\+Box\+::$\sim$cut\+Box (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Destrutor da classe. 
+
+
+
+\subsection{Documentação dos métodos}
+\mbox{\Hypertarget{classcut_box_ab71dd9780aace3726f8c2225938c47c2}\label{classcut_box_ab71dd9780aace3726f8c2225938c47c2}} 
+\index{cut\+Box@{cut\+Box}!draw@{draw}}
+\index{draw@{draw}!cut\+Box@{cut\+Box}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void cut\+Box\+::draw (\begin{DoxyParamCaption}\item[{\hyperlink{class_sculptor}{Sculptor} \&}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+É o método que desenha a escultura. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em t} & (Onde a escultura será alocada) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+void 
+\end{DoxyReturn}
+
+
+Implementa \hyperlink{class_figura_geometrica_a34585fd7c0bd7378fc69c4ee208e676c}{Figura\+Geometrica}.
+
+
+
+A documentação para esta classe foi gerada a partir do seguinte ficheiro\+:\begin{DoxyCompactItemize}
+\item 
+include/cut\+Box.\+h\end{DoxyCompactItemize}

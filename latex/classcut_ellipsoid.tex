@@ -1,0 +1,98 @@
+\hypertarget{classcut_ellipsoid}{}\section{Referência à classe cut\+Ellipsoid}
+\label{classcut_ellipsoid}\index{cut\+Ellipsoid@{cut\+Ellipsoid}}
+
+
+Classe responsável por desativar todos os voxels que satisfazem a equação da elipsoide.  
+
+
+
+
+{\ttfamily \#include $<$cut\+Ellipsoid.\+h$>$}
+
+
+
+Diagrama de heranças da classe cut\+Ellipsoid
+% FIG 0
+
+
+Diagrama de colaboração para cut\+Ellipsoid\+:
+% FIG 1
+\subsection*{Membros públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcut_ellipsoid_ace852f06b6395ceaa5c0382e37e44c8d}{cut\+Ellipsoid} (int xcenter, int ycenter, int zcenter, int rx, int ry, int rz)
+\begin{DoxyCompactList}\small\item\em Define a região em forma de elipse a ser removida. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcut_ellipsoid_a918357303816be0d876a9ccf70915893}\label{classcut_ellipsoid_a918357303816be0d876a9ccf70915893}} 
+virtual \hyperlink{classcut_ellipsoid_a918357303816be0d876a9ccf70915893}{$\sim$cut\+Ellipsoid} ()
+\begin{DoxyCompactList}\small\item\em Destrutor da classe. \end{DoxyCompactList}\item 
+void \hyperlink{classcut_ellipsoid_aa93a018312690a4f61fc13134f84bebc}{draw} (\hyperlink{class_sculptor}{Sculptor} \&t)
+\begin{DoxyCompactList}\small\item\em É o método que desenha a escultura. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Outros membros herdados}
+
+
+\subsection{Descrição detalhada}
+Classe responsável por desativar todos os voxels que satisfazem a equação da elipsoide. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em xcenter} & ( Posição x do centro da elipse) \\
+\hline
+{\em ycenter} & ( Posição y do centro da elipse) \\
+\hline
+{\em zcenter} & ( Posição z do centro da elipse) \\
+\hline
+{\em rx} & ( Raio da elipse na dimensão x) \\
+\hline
+{\em ry} & ( Raio da elipse na dimensão y) \\
+\hline
+{\em rz} & ( Raio da elipse na dimensão z) \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentação dos Construtores \& Destrutor}
+\mbox{\Hypertarget{classcut_ellipsoid_ace852f06b6395ceaa5c0382e37e44c8d}\label{classcut_ellipsoid_ace852f06b6395ceaa5c0382e37e44c8d}} 
+\index{cut\+Ellipsoid@{cut\+Ellipsoid}!cut\+Ellipsoid@{cut\+Ellipsoid}}
+\index{cut\+Ellipsoid@{cut\+Ellipsoid}!cut\+Ellipsoid@{cut\+Ellipsoid}}
+\subsubsection{\texorpdfstring{cut\+Ellipsoid()}{cutEllipsoid()}}
+{\footnotesize\ttfamily cut\+Ellipsoid\+::cut\+Ellipsoid (\begin{DoxyParamCaption}\item[{int}]{xcenter,  }\item[{int}]{ycenter,  }\item[{int}]{zcenter,  }\item[{int}]{rx,  }\item[{int}]{ry,  }\item[{int}]{rz }\end{DoxyParamCaption})}
+
+
+
+Define a região em forma de elipse a ser removida. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em xcenter,ycenter,zcenter,rx,ry,rz} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentação dos métodos}
+\mbox{\Hypertarget{classcut_ellipsoid_aa93a018312690a4f61fc13134f84bebc}\label{classcut_ellipsoid_aa93a018312690a4f61fc13134f84bebc}} 
+\index{cut\+Ellipsoid@{cut\+Ellipsoid}!draw@{draw}}
+\index{draw@{draw}!cut\+Ellipsoid@{cut\+Ellipsoid}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void cut\+Ellipsoid\+::draw (\begin{DoxyParamCaption}\item[{\hyperlink{class_sculptor}{Sculptor} \&}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+É o método que desenha a escultura. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em t} & (Onde a escultura será alocada) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+void 
+\end{DoxyReturn}
+
+
+Implementa \hyperlink{class_figura_geometrica_a34585fd7c0bd7378fc69c4ee208e676c}{Figura\+Geometrica}.
+
+
+
+A documentação para esta classe foi gerada a partir do seguinte ficheiro\+:\begin{DoxyCompactItemize}
+\item 
+include/cut\+Ellipsoid.\+h\end{DoxyCompactItemize}

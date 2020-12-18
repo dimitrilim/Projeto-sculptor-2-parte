@@ -1,0 +1,94 @@
+\hypertarget{classcut_sphere}{}\section{Referência à classe cut\+Sphere}
+\label{classcut_sphere}\index{cut\+Sphere@{cut\+Sphere}}
+
+
+Classe responsável por desativar todos os voxels que satisfazem a equação da esfera (is\+On = false)  
+
+
+
+
+{\ttfamily \#include $<$cut\+Sphere.\+h$>$}
+
+
+
+Diagrama de heranças da classe cut\+Sphere
+% FIG 0
+
+
+Diagrama de colaboração para cut\+Sphere\+:
+% FIG 1
+\subsection*{Membros públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcut_sphere_a3eaf7643a0e001270890a784c26ac5c0}{cut\+Sphere} (int xcenter, int ycenter, int zcenter, int radius)
+\begin{DoxyCompactList}\small\item\em Determina as dimensões da esfera que será apagada. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcut_sphere_a1da42def38732a7da7430ad0a8fbf827}\label{classcut_sphere_a1da42def38732a7da7430ad0a8fbf827}} 
+virtual \hyperlink{classcut_sphere_a1da42def38732a7da7430ad0a8fbf827}{$\sim$cut\+Sphere} ()
+\begin{DoxyCompactList}\small\item\em Destrutor da classe. \end{DoxyCompactList}\item 
+void \hyperlink{classcut_sphere_a98c142b869487cc6a0531f6bfca8462a}{draw} (\hyperlink{class_sculptor}{Sculptor} \&t)
+\begin{DoxyCompactList}\small\item\em É o método que desenha a escultura. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Outros membros herdados}
+
+
+\subsection{Descrição detalhada}
+Classe responsável por desativar todos os voxels que satisfazem a equação da esfera (is\+On = false) 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em xcenter} & ( Posição x do centro da esfera) \\
+\hline
+{\em ycenter} & ( Posição y do centro da esfera) \\
+\hline
+{\em zcenter} & ( Posição z do centro da esfera) \\
+\hline
+{\em radius} & ( Raio da esfera) \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentação dos Construtores \& Destrutor}
+\mbox{\Hypertarget{classcut_sphere_a3eaf7643a0e001270890a784c26ac5c0}\label{classcut_sphere_a3eaf7643a0e001270890a784c26ac5c0}} 
+\index{cut\+Sphere@{cut\+Sphere}!cut\+Sphere@{cut\+Sphere}}
+\index{cut\+Sphere@{cut\+Sphere}!cut\+Sphere@{cut\+Sphere}}
+\subsubsection{\texorpdfstring{cut\+Sphere()}{cutSphere()}}
+{\footnotesize\ttfamily cut\+Sphere\+::cut\+Sphere (\begin{DoxyParamCaption}\item[{int}]{xcenter,  }\item[{int}]{ycenter,  }\item[{int}]{zcenter,  }\item[{int}]{radius }\end{DoxyParamCaption})}
+
+
+
+Determina as dimensões da esfera que será apagada. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em xcenter,ycenter,zcenter,radius} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentação dos métodos}
+\mbox{\Hypertarget{classcut_sphere_a98c142b869487cc6a0531f6bfca8462a}\label{classcut_sphere_a98c142b869487cc6a0531f6bfca8462a}} 
+\index{cut\+Sphere@{cut\+Sphere}!draw@{draw}}
+\index{draw@{draw}!cut\+Sphere@{cut\+Sphere}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void cut\+Sphere\+::draw (\begin{DoxyParamCaption}\item[{\hyperlink{class_sculptor}{Sculptor} \&}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+É o método que desenha a escultura. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em t} & (Onde a escultura será alocada) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+void 
+\end{DoxyReturn}
+
+
+Implementa \hyperlink{class_figura_geometrica_a34585fd7c0bd7378fc69c4ee208e676c}{Figura\+Geometrica}.
+
+
+
+A documentação para esta classe foi gerada a partir do seguinte ficheiro\+:\begin{DoxyCompactItemize}
+\item 
+include/cut\+Sphere.\+h\end{DoxyCompactItemize}

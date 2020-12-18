@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Projeto Sculptor 2ª Parte: Código-Fonte de putEllipsoid.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="preview.jpg"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Projeto Sculptor 2ª Parte
+   &#160;<span id="projectnumber">1.1</span>
+   </div>
+   <div id="projectbrief">Criação de esculturas digitais por meio de classes abstratas e concretas em c++ por meio de herança</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">putEllipsoid.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="put_ellipsoid_8h.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef PUTELLIPSOID_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define PUTELLIPSOID_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_figurageometrica_8h.html">Figurageometrica.h</a>&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_sculptor_8h.html">Sculptor.h</a>&quot;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classput_ellipsoid.html">   18</a></span>&#160;<span class="keyword">class </span><a class="code" href="classput_ellipsoid.html">putEllipsoid</a>: <span class="keyword">public</span> <a class="code" href="class_figura_geometrica.html">FiguraGeometrica</a>{</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordtype">int</span> xcenter, ycenter, zcenter, rx, ry, rz;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">public</span>:</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="classput_ellipsoid.html#aefad71d076c5b6fc302a0ca7554a1be4">putEllipsoid</a>(<span class="keywordtype">int</span> xcenter, <span class="keywordtype">int</span> ycenter, <span class="keywordtype">int</span> zcenter, <span class="keywordtype">int</span> rx, <span class="keywordtype">int</span> ry, <span class="keywordtype">int</span> rz, <span class="keywordtype">float</span> <a class="code" href="class_figura_geometrica.html#a0a4f57efb1a6c525c8aeee34c92e7eab">r</a>, <span class="keywordtype">float</span> <a class="code" href="class_figura_geometrica.html#a51930549bcb90d016b824f10f95df355">g</a>, <span class="keywordtype">float</span> <a class="code" href="class_figura_geometrica.html#a25e5d6c21410103c25ec55c0117dac0d">b</a>, <span class="keywordtype">float</span> <a class="code" href="class_figura_geometrica.html#ae7c8a027fcec3c357265b90458a4d165">a</a>);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="classput_ellipsoid.html#a114f2480465896dd8167115839f58098">~putEllipsoid</a>();</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classput_ellipsoid.html#a392bfa08917d452add21c19339d15e2c">draw</a>(<a class="code" href="class_sculptor.html">Sculptor</a> &amp;t);</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;};</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#endif // PUTELLIPSOID_H</span></div><div class="ttc" id="classput_ellipsoid_html_a114f2480465896dd8167115839f58098"><div class="ttname"><a href="classput_ellipsoid.html#a114f2480465896dd8167115839f58098">putEllipsoid::~putEllipsoid</a></div><div class="ttdeci">virtual ~putEllipsoid()</div><div class="ttdoc">Destrutor da classe. </div></div>
+<div class="ttc" id="class_figura_geometrica_html_a51930549bcb90d016b824f10f95df355"><div class="ttname"><a href="class_figura_geometrica.html#a51930549bcb90d016b824f10f95df355">FiguraGeometrica::g</a></div><div class="ttdeci">float g</div><div class="ttdef"><b>Definition:</b> <a href="_figurageometrica_8h_source.html#l00013">Figurageometrica.h:13</a></div></div>
+<div class="ttc" id="_figurageometrica_8h_html"><div class="ttname"><a href="_figurageometrica_8h.html">Figurageometrica.h</a></div></div>
+<div class="ttc" id="class_figura_geometrica_html"><div class="ttname"><a href="class_figura_geometrica.html">FiguraGeometrica</a></div><div class="ttdoc">A classe Figura Geometrica é uma classe abstrata em que faz a conexao entre as demais classes por mei...</div><div class="ttdef"><b>Definition:</b> <a href="_figurageometrica_8h_source.html#l00011">Figurageometrica.h:11</a></div></div>
+<div class="ttc" id="class_figura_geometrica_html_a25e5d6c21410103c25ec55c0117dac0d"><div class="ttname"><a href="class_figura_geometrica.html#a25e5d6c21410103c25ec55c0117dac0d">FiguraGeometrica::b</a></div><div class="ttdeci">float b</div><div class="ttdef"><b>Definition:</b> <a href="_figurageometrica_8h_source.html#l00013">Figurageometrica.h:13</a></div></div>
+<div class="ttc" id="class_sculptor_html"><div class="ttname"><a href="class_sculptor.html">Sculptor</a></div><div class="ttdoc">Classe para moldar os blocos com figuras geométricas simples além de atribuir a cor e salvar em um ar...</div><div class="ttdef"><b>Definition:</b> <a href="_sculptor_8h_source.html#l00027">Sculptor.h:27</a></div></div>
+<div class="ttc" id="_sculptor_8h_html"><div class="ttname"><a href="_sculptor_8h.html">Sculptor.h</a></div></div>
+<div class="ttc" id="class_figura_geometrica_html_ae7c8a027fcec3c357265b90458a4d165"><div class="ttname"><a href="class_figura_geometrica.html#ae7c8a027fcec3c357265b90458a4d165">FiguraGeometrica::a</a></div><div class="ttdeci">float a</div><div class="ttdef"><b>Definition:</b> <a href="_figurageometrica_8h_source.html#l00013">Figurageometrica.h:13</a></div></div>
+<div class="ttc" id="classput_ellipsoid_html_aefad71d076c5b6fc302a0ca7554a1be4"><div class="ttname"><a href="classput_ellipsoid.html#aefad71d076c5b6fc302a0ca7554a1be4">putEllipsoid::putEllipsoid</a></div><div class="ttdeci">putEllipsoid(int xcenter, int ycenter, int zcenter, int rx, int ry, int rz, float r, float g, float b, float a)</div><div class="ttdoc">Define a região que será inserida a elipse e atribui a cor e transparencia especificada. </div></div>
+<div class="ttc" id="classput_ellipsoid_html"><div class="ttname"><a href="classput_ellipsoid.html">putEllipsoid</a></div><div class="ttdoc">Classe responsável por ativar todos os voxels que satisfaz a equação da elipsoide. </div><div class="ttdef"><b>Definition:</b> <a href="put_ellipsoid_8h_source.html#l00018">putEllipsoid.h:18</a></div></div>
+<div class="ttc" id="classput_ellipsoid_html_a392bfa08917d452add21c19339d15e2c"><div class="ttname"><a href="classput_ellipsoid.html#a392bfa08917d452add21c19339d15e2c">putEllipsoid::draw</a></div><div class="ttdeci">void draw(Sculptor &amp;t)</div><div class="ttdoc">É o método que desenha a escultura. </div></div>
+<div class="ttc" id="class_figura_geometrica_html_a0a4f57efb1a6c525c8aeee34c92e7eab"><div class="ttname"><a href="class_figura_geometrica.html#a0a4f57efb1a6c525c8aeee34c92e7eab">FiguraGeometrica::r</a></div><div class="ttdeci">float r</div><div class="ttdef"><b>Definition:</b> <a href="_figurageometrica_8h_source.html#l00013">Figurageometrica.h:13</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

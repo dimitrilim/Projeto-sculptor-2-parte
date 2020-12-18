@@ -1,0 +1,92 @@
+\hypertarget{classput_voxel}{}\section{Referência à classe put\+Voxel}
+\label{classput_voxel}\index{put\+Voxel@{put\+Voxel}}
+
+
+Classe responsavel por um voxel em uma posição (x,y,z) e deixando ativo (is\+On = true)  
+
+
+
+
+{\ttfamily \#include $<$put\+Voxel.\+h$>$}
+
+
+
+Diagrama de heranças da classe put\+Voxel
+% FIG 0
+
+
+Diagrama de colaboração para put\+Voxel\+:
+% FIG 1
+\subsection*{Membros públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classput_voxel_a598024389450f9df8dd1dc1c221c9d03}{put\+Voxel} (int x, int y, int z, float r, float g, float b, float a)
+\begin{DoxyCompactList}\small\item\em Define o local para inserir o voxel atribuindo a cor e transparencia especificadas. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classput_voxel_a700c0dd70550a98f5da63e53ee76e186}\label{classput_voxel_a700c0dd70550a98f5da63e53ee76e186}} 
+virtual \hyperlink{classput_voxel_a700c0dd70550a98f5da63e53ee76e186}{$\sim$put\+Voxel} ()
+\begin{DoxyCompactList}\small\item\em Destrutor da classe. \end{DoxyCompactList}\item 
+void \hyperlink{classput_voxel_a39ae3ee4db405543234953f503201429}{draw} (\hyperlink{class_sculptor}{Sculptor} \&t)
+\begin{DoxyCompactList}\small\item\em É o método que desenha a escultura. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Outros membros herdados}
+
+
+\subsection{Descrição detalhada}
+Classe responsavel por um voxel em uma posição (x,y,z) e deixando ativo (is\+On = true) 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em x} & ( Posição na dimensão x) \\
+\hline
+{\em y} & ( Posição na dimensão y) \\
+\hline
+{\em z} & ( Posição na dimensão z) \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentação dos Construtores \& Destrutor}
+\mbox{\Hypertarget{classput_voxel_a598024389450f9df8dd1dc1c221c9d03}\label{classput_voxel_a598024389450f9df8dd1dc1c221c9d03}} 
+\index{put\+Voxel@{put\+Voxel}!put\+Voxel@{put\+Voxel}}
+\index{put\+Voxel@{put\+Voxel}!put\+Voxel@{put\+Voxel}}
+\subsubsection{\texorpdfstring{put\+Voxel()}{putVoxel()}}
+{\footnotesize\ttfamily put\+Voxel\+::put\+Voxel (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{z,  }\item[{float}]{r,  }\item[{float}]{g,  }\item[{float}]{b,  }\item[{float}]{a }\end{DoxyParamCaption})}
+
+
+
+Define o local para inserir o voxel atribuindo a cor e transparencia especificadas. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em x,y,z,r,g,b,a} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentação dos métodos}
+\mbox{\Hypertarget{classput_voxel_a39ae3ee4db405543234953f503201429}\label{classput_voxel_a39ae3ee4db405543234953f503201429}} 
+\index{put\+Voxel@{put\+Voxel}!draw@{draw}}
+\index{draw@{draw}!put\+Voxel@{put\+Voxel}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void put\+Voxel\+::draw (\begin{DoxyParamCaption}\item[{\hyperlink{class_sculptor}{Sculptor} \&}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+É o método que desenha a escultura. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em t} & (Onde a escultura será alocada) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+void 
+\end{DoxyReturn}
+
+
+Implementa \hyperlink{class_figura_geometrica_a34585fd7c0bd7378fc69c4ee208e676c}{Figura\+Geometrica}.
+
+
+
+A documentação para esta classe foi gerada a partir do seguinte ficheiro\+:\begin{DoxyCompactItemize}
+\item 
+include/put\+Voxel.\+h\end{DoxyCompactItemize}

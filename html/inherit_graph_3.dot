@@ -1,0 +1,7 @@
+digraph "Representação gráfica da hiearquia da classe"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="Voxel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_voxel.html",tooltip="Declaração da struct Voxel O tipo de dado Voxel é armazenado nessa struct. "];
+}

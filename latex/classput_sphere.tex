@@ -1,0 +1,97 @@
+\hypertarget{classput_sphere}{}\section{Referência à classe put\+Sphere}
+\label{classput_sphere}\index{put\+Sphere@{put\+Sphere}}
+
+
+Classe responsável por ativar todos os voxels que satisfazem a equação da esfera.  
+
+
+
+
+{\ttfamily \#include $<$put\+Sphere.\+h$>$}
+
+
+
+Diagrama de heranças da classe put\+Sphere
+% FIG 0
+
+
+Diagrama de colaboração para put\+Sphere\+:
+% FIG 1
+\subsection*{Membros públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classput_sphere_a186ac51400d1d79a1e6060e56a90e32a}{put\+Sphere} (int xcenter, int ycenter, int zcenter, int radius, float r, float g, float b, float a)
+\begin{DoxyCompactList}\small\item\em Define a região esferica a ser incluida na escultura e atribui a cor e trasnparencia especificada. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classput_sphere_ad155ede271354612fa57a2638538434b}\label{classput_sphere_ad155ede271354612fa57a2638538434b}} 
+virtual \hyperlink{classput_sphere_ad155ede271354612fa57a2638538434b}{$\sim$put\+Sphere} ()
+\begin{DoxyCompactList}\small\item\em Destrutor da classe. \end{DoxyCompactList}\item 
+void \hyperlink{classput_sphere_addd9a9936084a1f83bd22973c6e3da16}{draw} (\hyperlink{class_sculptor}{Sculptor} \&t)
+\begin{DoxyCompactList}\small\item\em É o método que desenha a escultura. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Outros membros herdados}
+
+
+\subsection{Descrição detalhada}
+Classe responsável por ativar todos os voxels que satisfazem a equação da esfera. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em xcenter} & ( Posição x do centro da esfera) \\
+\hline
+{\em ycenter} & ( Posição y do centro da esfera) \\
+\hline
+{\em zcenter} & ( Posição z do centro da esfera) \\
+\hline
+{\em radius} & ( Raio da esfera) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+
+\end{DoxyReturn}
+
+
+\subsection{Documentação dos Construtores \& Destrutor}
+\mbox{\Hypertarget{classput_sphere_a186ac51400d1d79a1e6060e56a90e32a}\label{classput_sphere_a186ac51400d1d79a1e6060e56a90e32a}} 
+\index{put\+Sphere@{put\+Sphere}!put\+Sphere@{put\+Sphere}}
+\index{put\+Sphere@{put\+Sphere}!put\+Sphere@{put\+Sphere}}
+\subsubsection{\texorpdfstring{put\+Sphere()}{putSphere()}}
+{\footnotesize\ttfamily put\+Sphere\+::put\+Sphere (\begin{DoxyParamCaption}\item[{int}]{xcenter,  }\item[{int}]{ycenter,  }\item[{int}]{zcenter,  }\item[{int}]{radius,  }\item[{float}]{r,  }\item[{float}]{g,  }\item[{float}]{b,  }\item[{float}]{a }\end{DoxyParamCaption})}
+
+
+
+Define a região esferica a ser incluida na escultura e atribui a cor e trasnparencia especificada. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em xcenter,ycenter,zcenter,radius,r,g,b,a} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentação dos métodos}
+\mbox{\Hypertarget{classput_sphere_addd9a9936084a1f83bd22973c6e3da16}\label{classput_sphere_addd9a9936084a1f83bd22973c6e3da16}} 
+\index{put\+Sphere@{put\+Sphere}!draw@{draw}}
+\index{draw@{draw}!put\+Sphere@{put\+Sphere}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void put\+Sphere\+::draw (\begin{DoxyParamCaption}\item[{\hyperlink{class_sculptor}{Sculptor} \&}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+É o método que desenha a escultura. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em t} & (Onde a escultura será alocada) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+void 
+\end{DoxyReturn}
+
+
+Implementa \hyperlink{class_figura_geometrica_a34585fd7c0bd7378fc69c4ee208e676c}{Figura\+Geometrica}.
+
+
+
+A documentação para esta classe foi gerada a partir do seguinte ficheiro\+:\begin{DoxyCompactItemize}
+\item 
+include/put\+Sphere.\+h\end{DoxyCompactItemize}

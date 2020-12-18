@@ -1,0 +1,23 @@
+digraph "Representação gráfica da hiearquia da classe"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="FiguraGeometrica",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_figura_geometrica.html",tooltip="A classe Figura Geometrica é uma classe abstrata em que faz a conexao entre as demais classes por mei..."];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="cutBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcut_box.html",tooltip="Classe responsavel por cortar uma sequencia de voxels em forma de cubo e deixando inativo (isOn = fal..."];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cutEllipsoid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcut_ellipsoid.html",tooltip="Classe responsável por desativar todos os voxels que satisfazem a equação da elipsoide. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cutSphere",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcut_sphere.html",tooltip="Classe responsável por desativar todos os voxels que satisfazem a equação da esfera (isOn = false) ..."];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cutVoxel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcut_voxel.html",tooltip="Classe responsavel por cortar um voxel na posição (x,y,z) e deixando inativo (isOn = false) ..."];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="putBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classput_box.html",tooltip="Classe responsavel por colocar uma sequencia de voxels em forma de caixa e deixando ativo (isOn = tru..."];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="putEllipsoid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classput_ellipsoid.html",tooltip="Classe responsável por ativar todos os voxels que satisfaz a equação da elipsoide. "];
+  Node0 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="putSphere",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classput_sphere.html",tooltip="Classe responsável por ativar todos os voxels que satisfazem a equação da esfera. ..."];
+  Node0 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="putVoxel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classput_voxel.html",tooltip="Classe responsavel por um voxel em uma posição (x,y,z) e deixando ativo (isOn = true) ..."];
+}

@@ -1,0 +1,98 @@
+\hypertarget{classput_ellipsoid}{}\section{Referência à classe put\+Ellipsoid}
+\label{classput_ellipsoid}\index{put\+Ellipsoid@{put\+Ellipsoid}}
+
+
+Classe responsável por ativar todos os voxels que satisfaz a equação da elipsoide.  
+
+
+
+
+{\ttfamily \#include $<$put\+Ellipsoid.\+h$>$}
+
+
+
+Diagrama de heranças da classe put\+Ellipsoid
+% FIG 0
+
+
+Diagrama de colaboração para put\+Ellipsoid\+:
+% FIG 1
+\subsection*{Membros públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classput_ellipsoid_aefad71d076c5b6fc302a0ca7554a1be4}{put\+Ellipsoid} (int xcenter, int ycenter, int zcenter, int rx, int ry, int rz, float r, float g, float b, float a)
+\begin{DoxyCompactList}\small\item\em Define a região que será inserida a elipse e atribui a cor e transparencia especificada. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classput_ellipsoid_a114f2480465896dd8167115839f58098}\label{classput_ellipsoid_a114f2480465896dd8167115839f58098}} 
+virtual \hyperlink{classput_ellipsoid_a114f2480465896dd8167115839f58098}{$\sim$put\+Ellipsoid} ()
+\begin{DoxyCompactList}\small\item\em Destrutor da classe. \end{DoxyCompactList}\item 
+void \hyperlink{classput_ellipsoid_a392bfa08917d452add21c19339d15e2c}{draw} (\hyperlink{class_sculptor}{Sculptor} \&t)
+\begin{DoxyCompactList}\small\item\em É o método que desenha a escultura. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Outros membros herdados}
+
+
+\subsection{Descrição detalhada}
+Classe responsável por ativar todos os voxels que satisfaz a equação da elipsoide. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em xcenter} & ( Posição x do centro da elipse) \\
+\hline
+{\em ycenter} & ( Posição y do centro da elipse) \\
+\hline
+{\em zcenter} & ( Posição z do centro da elipse) \\
+\hline
+{\em rx} & ( Raio da elipse na dimensão x) \\
+\hline
+{\em ry} & ( Raio da elipse na dimensão y) \\
+\hline
+{\em rz} & ( Raio da elipse na dimensão z) \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentação dos Construtores \& Destrutor}
+\mbox{\Hypertarget{classput_ellipsoid_aefad71d076c5b6fc302a0ca7554a1be4}\label{classput_ellipsoid_aefad71d076c5b6fc302a0ca7554a1be4}} 
+\index{put\+Ellipsoid@{put\+Ellipsoid}!put\+Ellipsoid@{put\+Ellipsoid}}
+\index{put\+Ellipsoid@{put\+Ellipsoid}!put\+Ellipsoid@{put\+Ellipsoid}}
+\subsubsection{\texorpdfstring{put\+Ellipsoid()}{putEllipsoid()}}
+{\footnotesize\ttfamily put\+Ellipsoid\+::put\+Ellipsoid (\begin{DoxyParamCaption}\item[{int}]{xcenter,  }\item[{int}]{ycenter,  }\item[{int}]{zcenter,  }\item[{int}]{rx,  }\item[{int}]{ry,  }\item[{int}]{rz,  }\item[{float}]{r,  }\item[{float}]{g,  }\item[{float}]{b,  }\item[{float}]{a }\end{DoxyParamCaption})}
+
+
+
+Define a região que será inserida a elipse e atribui a cor e transparencia especificada. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em xcenter,ycenter,zcenter,rx,ry,rz,r,g,b,a} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentação dos métodos}
+\mbox{\Hypertarget{classput_ellipsoid_a392bfa08917d452add21c19339d15e2c}\label{classput_ellipsoid_a392bfa08917d452add21c19339d15e2c}} 
+\index{put\+Ellipsoid@{put\+Ellipsoid}!draw@{draw}}
+\index{draw@{draw}!put\+Ellipsoid@{put\+Ellipsoid}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void put\+Ellipsoid\+::draw (\begin{DoxyParamCaption}\item[{\hyperlink{class_sculptor}{Sculptor} \&}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+É o método que desenha a escultura. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em t} & (Onde a escultura será alocada) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+void 
+\end{DoxyReturn}
+
+
+Implementa \hyperlink{class_figura_geometrica_a34585fd7c0bd7378fc69c4ee208e676c}{Figura\+Geometrica}.
+
+
+
+A documentação para esta classe foi gerada a partir do seguinte ficheiro\+:\begin{DoxyCompactItemize}
+\item 
+include/put\+Ellipsoid.\+h\end{DoxyCompactItemize}
